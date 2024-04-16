@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental_Equillibria</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+        }
+        body
+        {
+            background-color: rgb(54, 53, 52);
+        }
+        .navbar2
+        {
+            border: 0.5px solid black;
+            background-color:  rgb(74, 30, 132);
+            color: rgb(22, 21, 21);
+            font-size: xx-large;
+            font-style: italic;
+            text-align: center;
+            font-weight: bolder;
+        }
+        img
+        {
+            width: 100vw;
+            height: 100vh;
+            opacity: 0.5;
+        }
+        .content3
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 5vw;
+            position: absolute;
+            font-style: italic;
+            top: 3%;
+            left: 17%;
+            background-color: rgb(246, 205, 242);
+            color: rgb(56, 5, 5);
+            padding: 1vw;
+            border: 1px solid black;
+            border-radius: 5vw;
+            font-weight: bolder;
+            height: 12vh;
+        }
+        .container
+        {
+            position: absolute;
+            left: 1vw;
+            top: 20vh;
+        }
+        .box
+        {
+            display: flex;
+            width: 40vw;
+            height: 10vh;
+            margin: 2vw;
+            border-radius: 5vw;
+            border: 1px solid black;
+            background-color: rgb(56, 2, 44);
+            justify-content: center;
+            align-items: center;
+            color: rgb(156, 136, 175);
+            font-size: 5vw;
+        }
+        .box:hover
+        {
+            padding: 1vw;
+        }
+    </style>
+</head>
+<body>
+    <img src="yoga.jpg" alt="">
+    <!-- <div class="navbar2">
+        What is your current state of mind ?
+    </div> -->
+    <div class="content3">
+       &nbsp; What Is Your Current State ?  &nbsp;
+    </div>
+    <div class="container">
+        <div class="box" id="box_1">Anxious</div>
+        <div class="box" id="box_2">Sleeplessness</div>
+        <div class="box" id="box_3">Illness(Pyrexia)</div>
+        <div class="box" id="box_4">Pain</div>
+        <div class="box" id="box_5">Drained</div>
+    </div>
+    <script>
+        document.querySelector("#box_1").addEventListener("click",()=>{ window.location.href = "http://127.0.0.1:3000/FROSTHACKERS5.HTML";})
+        document.querySelector("#box_2").addEventListener("click",()=>{ window.location.href = "http://127.0.0.1:3000/FROSTHACKER3.HTML";})
+        document.querySelector("#box_3").addEventListener("click",()=>{ window.location.href = "http://127.0.0.1:3000/FROSTHACKERS7.HTML";})
+        document.querySelector("#box_4").addEventListener("click",()=>{ window.location.href = "http://127.0.0.1:3000/FROSTHACKERS6.HTML";})
+        document.querySelector("#box_5").addEventListener("click",()=>{ window.location.href = "http://127.0.0.1:3000/FROSTHACKERS4.HTML";})
+    </script>
+</body>
+</html>
